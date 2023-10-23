@@ -41,7 +41,5 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Media
 PRODUCT_PACKAGES += \
-   mixer_gains.xml \
-   mixer_gains_rc.xml \
    mixer_paths.xml \
    mixer_paths_rc.xml
