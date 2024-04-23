@@ -1,0 +1,23 @@
+prebuilt_etc {
+   name: "mixer_paths.xml",
+   src: "mixer_paths.xml",
+   vendor: true,
+}
+
+prebuilt_etc {
+   name: "mixer_gains.xml",
+   src: "mixer_gains.xml",
+   vendor: true,
+}
+
+prebuilt_etc {
+   name: "mixer_paths_rc.xml",
+   src: "mixer_paths_rc.xml",
+   vendor: true,
+}
+
+prebuilt_etc {
+   name: "mixer_gains_rc.xml",
+   src: "mixer_gains_rc.xml",
+   vendor: true,
+}
