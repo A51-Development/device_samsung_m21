@@ -43,3 +43,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
    mixer_paths.xml \
    mixer_paths_rc.xml
+
+PRODUCT_SOONG_NAMESPACES += \
+   $(DEVICE_PATH)
