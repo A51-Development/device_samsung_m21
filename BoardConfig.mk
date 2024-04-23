@@ -19,6 +19,7 @@ DEVICE_PATH := device/samsung/m21
 # Inherit from the common tree
 include device/samsung/universal9611-common/BoardConfigCommon.mk
 include device/samsung/universal9611-common/fingerprint/bfps/BoardConfig.mk
+include device/samsung/universal9611-common/nfc/slsi/BoardConfig.mk
 # Inherit optional vendor BoardConfig
 -include vendor/samsung/m21/BoardConfigVendor.mk
 

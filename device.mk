@@ -24,6 +24,8 @@ $(call inherit-product, device/samsung/universal9611-common/common.mk)
 $(call inherit-product, vendor/samsung/m21/m21-vendor.mk)
 # Fingerprint BFPS
 $(call inherit-product, device/samsung/universal9611-common/fingerprint/bfps/config.mk)
+# SLSI NFC
+$(call inherit-product, device/samsung/universal9611-common/nfc/slsi/common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
